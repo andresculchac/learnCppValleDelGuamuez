@@ -9,6 +9,10 @@ void sayHello() {
 
 }
 
+int findTheSquare (int number) {
+    return number * number;
+}
+
 int main() {
     sayHello();
     
