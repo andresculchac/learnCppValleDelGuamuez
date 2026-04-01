@@ -1,3 +1,7 @@
 Documentacion tecnica de cpp, como aprender a manejar tiempos, porque esa debe ser mi especialidad a partir de ahora
 200~https://www.youtube.com/watch?v=t11q4qgwngQ video para manejar tiempos como un profesional
 
+Forward Declarations: En terminos simples que la funcion
+ tiene que estar primeropara que sea reconocida de lo contrario no 
+ la identificara y dara error, es mas complejo que solo decir eso,
+  por eso en forwardDeclaration.c++ dejo un ejemplo mas explicito
