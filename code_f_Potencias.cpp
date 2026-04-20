@@ -4,6 +4,8 @@
 #include <iostream>
 #include <cmath>
 //power function pow(base, exponent) 2^3 = pow(2, 3) = 8
+// multiplicar acumulativamente es mejor que recalcular desde cero
+
 using namespace std;
 int main()
 {
@@ -26,3 +28,19 @@ int main()
 
 
 }
+
+/* #include <iostream>
+using namespace std;
+
+int main()
+{
+    int base{}, limit{};
+    cin >> base >> limit;
+
+    int value = base;
+
+    while (value <= limit) {
+        cout << value << '\n';
+        value *= base;
+    }
+} */
